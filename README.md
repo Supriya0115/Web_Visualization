@@ -21,10 +21,10 @@ The following html pages make the web visualization dashboard :
 
    * There is content and images on each page. They have been styled using bootstrap, inline, and external css. Grid/Containers are used to achieve the presentation.
 
-3. "Compare" - Compare.html displays the images used in the dashboard. The images and headers are clickable, and redirects to individual        summary pages.
+3. "Compare" - Compare.html displays the images used in the dashboard. The images and headers are clickable, and redirects to individual summary pages.
 
 4. "Get Data" - GetData.html displays the underlying data for some of the illustrations. While there are sophisticated ways to the csv data import to HTML table, for this effort I used a resource available on the internet to translate the data to HTML code and used it to formulate the table.
 
-5. The focus for the effort was to layout a website that utilizes Bootstrap, HTML elements and tags, and visualization(images) .The text / summary definitely more work to align the subjects and visualization. 
+5. The focus of the effort was to layout a website that utilizes Bootstrap, HTML elements and tags, and visualization(images) .The text / summary definitely needs more work to align the context and visualization. 
 
 
