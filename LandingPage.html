@@ -1,0 +1,150 @@
+  <!-- Define HTML Structure : Website Title: Tweet-er; Indicate links to he latest Bootstrap CDN 4.1.3 and JavaScript Library -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Visualize</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="WebViz1.css">
+    <style>
+        .bg-1 { 
+             background-color: lightblue; 
+              color: black;
+          }
+
+        .container {
+        padding: 80px 120px;
+          }
+    </style>
+
+
+
+  </head>
+
+<body>
+
+  <!-- The block of HTML Code below does the following -
+  1. Bootstrap Component for Navigation Bar is used below. The inline styling is used to change font color; background color, and alignment.
+  2. Nav Bar Toggler/Button is used to ensure responsive behavior for various screen sizes.
+  3. Drop Down Toggle is used for Visualize Item.-->
+  
+<nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span> 
+                    </button>
+                    <a class="navbar-brand" href="LandingPage.html">Visualize!</a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="Viz.html">Visualization
+                          <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a href="Visualization1.html">Plot1</a></li>
+                          <li><a href="Visualization2.html">Plot2</a></li>
+                          <li><a href="Visualization3.html">Plot3</a></li> 
+                          <li><a href="Visualization4.html">Plot4</a></li> 
+                        </ul>
+                      </li>
+                      <li><a href="Compare.html">Compare</a></li>
+                      <li><a href="GetData.html">Get Data</a></li>
+                    </ul>
+                  </div>
+                </div>
+  </nav>
+  
+  <!-- The block of HTML Code below does the following -
+  1. Defines the grid/container and describes the content in the form of <p> and <li> elements.
+  2. The images are made clickable and are housed in a container [4-4-4].
+  3. Inline styling is used to change font color; background color, and alignment.-->
+  
+<div class="container bg-1 text-center">
+  <h3 style="font-weight:bolder;">Summary:Insights,Influencers, and Twitter</h3>
+  <p style="font-size: 15px;font-weight:normal;text-align: justify;">Twitter, as a social medium, can be leveraged to drive recommendations for market 
+    research and brand positioning .
+    A dataset of 400+ influencers across various genres were studied[programmatically!] to achieve the following objectives - </p>
+    <ol >
+            <li><p style="font-size: 15px;font-weight:normal;text-align: justify;">Track digital footprint of Influencers via Twitter Analytics</p></li>
+            <li><p style="font-size: 15px;font-weight:normal;text-align: justify;">Track reactions of Influencers to trending topics e.g. Social vs Entertainment</p></li>
+            <li><p style="font-size: 15px;font-weight:normal;text-align: justify;">Visualize the story from Twitter Data</p></li>
+
+  </ol>
+  <div class="container-fluid">
+    <h4><em>Click on the images to learn more!</em></h4> 
+</div>
+  <div class="row text-center">
+    <div class="col-sm-4">
+            <div class="thumbnail">
+
+                <p><strong></strong></p><br>
+                    <a href="#demo1" data-toggle="collapse">
+                        <img src="Images\2.png" alt="Plot 1" >
+                    </a>
+                    <div id="demo1" class="collapse">
+                        <p>The visualization depicts the genres and their popularity on Twitter!</p>
+                        <p>Tracks the percentage share of followers by genre</p>
+                    </div>
+            </div>
+    </div>
+    
+    <div class="col-sm-4">
+            <div class="thumbnail">
+
+                <p><em><strong></strong></em></p>
+                    <a href="#demo2" data-toggle="collapse">
+                        <img src="Images\SA_3.png" alt="Plot 2" >
+                    </a>
+                    <div id="demo2" class="collapse">
+                        <p>The visualization depicts the tweet volume by genre!</p>
+                    </div>
+            </div>
+    </div>
+
+    <div class="col-sm-4">
+        <div class="thumbnail">
+
+            <p><strong></strong></p><br>
+            <a href="#demo3" data-toggle="collapse">
+                <img src="Images\3.png" alt="Plot 3">
+            </a>
+            <div id="demo3" class="collapse">
+                    <p>The visualization depicts the sentiment analysis of top 10 influencers</p>
+                    <p>The sentiment analyzer analyzes the tweets and indicate a score between 0 and 1!</p>
+                </div>
+        </div>
+    </div>
+  </div>
+
+  </div>
+
+  <!-- The block of HTML Code below does the following -
+  1. Defines the footer with glyphicon, and link to my Twitter Page.
+  2. A tooltip in the form of a script is used to help navigate to the top of the webpage.-->
+
+<footer class="text-center">
+        <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </a><br><br>
+        <p>Tweet me @ <a href="https://twitter.com/SupriyaSatpathy" data-toggle="tooltip" title="https://twitter.com/SupriyaSatpathy">https://twitter.com/SupriyaSatpathy</a></p> 
+  </footer>
+      
+<script>
+      $(document).ready(function(){
+          // Initialize Tooltip
+          $('[data-toggle="tooltip"]').tooltip(); 
+      })
+  </script>
+
+
+  </body>
+  </html>
