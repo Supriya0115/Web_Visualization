@@ -1,6 +1,7 @@
 # Web_Visualization
 
-Website Title - Visualize 
+Website Title - Visualize : https://supriya0115.github.io/Web_Visualization/
+
 Technology - Bootstrap, CSS[WebVisualization.css], HTML, minimal scripting
 
 The following html pages make the web visualization dashboard : 
